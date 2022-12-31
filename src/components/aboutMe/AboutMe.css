@@ -1,0 +1,22 @@
+.aboutMeContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #0E0F19;
+    padding:  1vw 0px;
+    width: 80vw;
+    margin-right: 15vw;
+}
+header{
+    font-size: xxx-large;
+    color: #F7CE5B;
+}
+p{
+    width:20vw;
+    padding: 4vw;
+    justify-content: center;
+    font-size: x-large;
+    color: #F7CE5B;
+}

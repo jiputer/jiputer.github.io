@@ -1,0 +1,8 @@
+.mainContainer{
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 100px;
+    width: 1080px;
+}
