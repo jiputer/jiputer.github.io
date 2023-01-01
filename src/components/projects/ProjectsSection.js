@@ -2,9 +2,11 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div class="projects">
-      <header>Tabs</header>
-      <p>Hey, I am a university student from Toronto. I'm currently studying Statistics, specializing in machine learning at University of Toronto. </p>
+    <div className = "projects"> 
+    <div className="project">
+      <header className="projectheader">Tabs</header>
+      <p>A web-application that was built using TypeScript. </p>
+    </div>
     </div>
   );
 }

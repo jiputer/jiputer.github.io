@@ -1,0 +1,21 @@
+.project{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.projects{
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.projectheader{
+    font-size: larger;
+}
+
+p{
+    font-size:large;
+}

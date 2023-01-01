@@ -23,11 +23,9 @@
 }
 
 
-
-
 .icon:hover{
-    animation: icon-spin 0.4s linear;
-    
+    animation: icon-spin 0.5s linear;
+    filter:invert(41%) sepia(8%) saturate(2393%) hue-rotate(125deg) brightness(91%) contrast(85%);
   }
 
 

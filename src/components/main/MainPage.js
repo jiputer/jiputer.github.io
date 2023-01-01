@@ -3,10 +3,12 @@ import { CoursesButton, ExperienceButton, GithubButton, LinkedInButton, Projects
 import AboutMe from "../aboutMe/AboutMe";
 import Navbar from "../navbar/NavBar";
 import Projects from "../projects/ProjectsSection";
+import Background from "../background/Background";
 
 function MainPage() {
   return (
     <div className = "mainContainer">
+    <Background/>
     <div className = "landingContainer">
       <AboutMe/>
           <div className="container">
