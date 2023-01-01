@@ -1,8 +1,26 @@
 .mainContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landingContainer{
     align-items: left;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding: 100px;
+    padding: 10vw;
+    margin-bottom: 20vw;
+    width: 1080px;
+}
+
+.projectsContainer{
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10vw;
+    margin-bottom: 20vw;
     width: 1080px;
 }

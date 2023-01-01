@@ -18,12 +18,13 @@ header{
     color: #F7CE5B;
 }
 p{
+
     align-items: center;
     display: flex;
     width:300px;
-    padding: 50px;
+    padding: 20px;
     margin-left: 50px;
     justify-content: center;
-    font-size: x-large;
+    font-size: large;
     color: #F7CE5B;
 }
