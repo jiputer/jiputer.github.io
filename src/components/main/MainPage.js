@@ -4,18 +4,14 @@ import AboutMe from "../aboutMe/AboutMe";
 
 function MainPage() {
   return (
-
-
-<div class = "mainContainer">
-  <AboutMe/>
-      <div class="container">
-        <GithubButton/>
-        <CoursesButton/>
-        <ExperienceButton/>
-        <LinkedInButton/>
-        <ProjectsButton/>
-        <ResumeButton/>
-      </div>
+    <div className = "mainContainer">
+      <AboutMe/>
+          <div className="container">
+            <CoursesButton/>
+            <ExperienceButton/>
+            <ProjectsButton/>
+            <ResumeButton/>
+          </div>
     </div>
   );
 }

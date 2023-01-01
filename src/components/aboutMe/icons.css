@@ -1,0 +1,42 @@
+.bar {
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #0E0F19;
+    color: #fff;
+  }
+
+.icons {
+    display: flex;
+    align-items: center;
+  }
+  
+.icons > * {
+    margin-right: 10px;
+  }
+  
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+
+
+
+.icon:hover{
+    animation: icon-spin 0.4s linear;
+    
+  }
+
+
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

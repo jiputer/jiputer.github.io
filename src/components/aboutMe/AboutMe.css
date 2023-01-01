@@ -5,17 +5,24 @@
     justify-content: center;
     text-align: center;
     background-color: #0E0F19;
-    padding:  1vw 0px;
-    width: 80vw;
-    margin-right: 15vw;
+    padding:  10px 0px;
+    width: 1000px;
+    margin-right: 250px;
 }
 header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: xxx-large;
     color: #F7CE5B;
 }
 p{
-    width:20vw;
-    padding: 4vw;
+    align-items: center;
+    display: flex;
+    width:300px;
+    padding: 50px;
+    margin-left: 50px;
     justify-content: center;
     font-size: x-large;
     color: #F7CE5B;
