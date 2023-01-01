@@ -8,9 +8,10 @@ import Background from "../background/Background";
 function MainPage() {
   return (
     <div className = "mainContainer">
-    <Background/>
+    
     <div className = "landingContainer">
       <AboutMe/>
+      <Background/>
           <div className="container">
             <CoursesButton/>
             <ExperienceButton/>
