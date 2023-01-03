@@ -3,24 +3,47 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
 }
 
 .landingContainer{
-    align-items: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    display: -webkit-inline-flex;
+    flex-flow: row wrap;
     padding: 10vw;
     margin-bottom: 20vw;
-    width: 1080px;
+    width: 100%;
 }
 
 .projectsContainer{
-    align-items: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    display: -webkit-inline-flex;
+    flex-flow: row wrap;
+    padding: 10vw;
     margin-bottom: 20vw;
-    width: 1080px;
+    width: 100%;
+    padding-right: 10vw;
+    padding-top: 10vw;
+    margin-bottom: 20vw;
+    width: 100%;
 
+}
+.buttonContainer{
+    display: inline-flexbox;
+    flex-flow: row wrap;
+    padding: 10vw;
+    margin-bottom: 20vw;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    padding:  10px 0px;
+    width: 250px;
+    margin-left: 80px;
+}
+.sectionTitle{
+    z-index: index inherit;
+    justify-content: left;
+    font-size: xxxx-large;
+    align-items: left;
 }
