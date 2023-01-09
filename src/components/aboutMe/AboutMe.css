@@ -4,10 +4,10 @@
     flex-direction: column;
     justify-content: left;
     text-align: left;
+    flex-wrap: wrap;
     background-color: #0E0F19;
     width: 40vmax;
-    margin-right: 20vmin;
-    margin-left: 20vmin;
+    margin-left: 10vmin;
 }
 header{
     position: relative;
@@ -21,10 +21,11 @@ header{
 p{
     align-items: left;
     display: flex;
-    word-wrap: break-word;
-    width: 40vmax;
-    
-    padding-top: 20px;
+    word-wrap: normal;
+    flex-wrap: wrap;
+    width: 35vmax;
+    padding-top: 10vmin;
+    margin-right: 25vmin;
     justify-content: left;
     font-size: large;
     color: #F7CE5B;
