@@ -14,28 +14,74 @@
     color:transparent;
     background-color: transparent;
   }
- .navbar.sticky {
+ .navbar .sticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
   }
-
   .navbar {
-    display: none;
-    transition: display 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  .navbar .show{
-    display: block;
-    transition: display 0.5s ease-in-out;
-
+  .navButtonContainer{
+    margin: 0 !important;
+    padding:0 !important;
   }
-
-
+  .navButtons{
+    margin: 0 !important;
+    padding:0 !important;
+  }
+  
   @media screen and (max-width: 600px) {
-    .navbar {
-      display: none;
-      transition: display 0.3s ease-in-out;
+    .barContainer, .navbar{
+      flex-direction: column;
+    }
+    .navButtonContainer{
+      margin: 0;
+      padding:0;
+    }
+    .navButtons{
+      margin: 0;
+      padding:0;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .barContainer , .navbar{
+      display: flex;
+      justify-content: space-between;
+    }
+    .navButtonContainer{
+      margin: 0;
+      padding:0;
+    }
+    .navButtons{
+      margin: 0;
+      padding:0;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .barContainer, .navbar {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .navButtonContainer{
+      margin: 0;
+      padding:0;
+    }
+    .navButtons{
+      margin: 0;
+      padding:0;
+    }
+    .navbarBtn{
+      margin:0;
+      padding:0;
     }
   }

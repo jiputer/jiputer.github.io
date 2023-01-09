@@ -1,5 +1,5 @@
 import "./MainPage.css"
-import { CoursesButton, ExperienceButton, ProjectsButton, ResumeButton } from "../buttons";
+import ButtonLink  from "../buttons/Button";
 import AboutMe from "../aboutMe/AboutMe";
 import Navbar from "../navbar/NavBar";
 import Projects from "../projects/ProjectsSection";
@@ -14,10 +14,10 @@ function MainPage() {
     <div className = "landingContainer">
       <AboutMe/>
           <div className="buttonContainer">
-            <CoursesButton/>
-            <ExperienceButton/>
-            <ProjectsButton/>
-            <ResumeButton/>
+            <ButtonLink text="COURSES" />
+            <ButtonLink text = "EXPERIENCE"/>
+            <ButtonLink text = "PROJECTS"/>
+            <ButtonLink text = "RESUME"/>
           </div>
     </div>
  <header className="sectionTitle">Projects</header>

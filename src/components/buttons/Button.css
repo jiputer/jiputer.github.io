@@ -6,7 +6,6 @@
   html,
   body {
     box-sizing: border-box;
-    height: 100%;
     width: 100%;
   }
   
@@ -16,7 +15,7 @@
     font-weight: 400;
   }
   
-  .buttons {
+  .buttons, .navButtons {
     display: flex;
     flex-direction: row;
         flex-wrap: wrap;
@@ -28,10 +27,11 @@
     width: 81%;
     height: 14%;
     margin: 1vw;
+    
   /*   padding: 2em 0em; */
   }
   
-  .container {
+  .container, .navButtonContainer {
     
     background-color: transparent;
     min-width: 160px;
@@ -57,7 +57,7 @@
   }
   
   
-  .btn {
+  .btn, .navbarBtn {
     letter-spacing: 0.1em;
     cursor: pointer;
     font-size: 14px;
@@ -69,7 +69,7 @@
     min-width: 100%;
   }
 
-  .btn:hover {
+  .btn:hover, .navbarBtn:hover {
     text-decoration: none;
   }
   
