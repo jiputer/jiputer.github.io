@@ -5,10 +5,11 @@ function Navbar() {
 
   useEffect(() => {
     const navbar = document.querySelector('.navbar');
-
+    const h = document.querySelector('body').clientHeight;
+    console.log("height: "+ h);
     window.addEventListener('scroll', () => {
-      
-      if (window.scrollY > 650) {
+      if (window.scrollY > h*0.20) {
+        
         navbar.style.display = 'block';
         navbar.classList.add('show');
         navbar.classList.add('sticky');

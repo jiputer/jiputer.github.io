@@ -24,7 +24,7 @@
 
     min-width: 160px;
     min-height: 70px;
-    width: 81%;
+    width: 10vw;
     height: 14%;
     margin: 1vw;
     
@@ -67,12 +67,13 @@
     text-decoration: none;
     text-transform: uppercase;
     min-width: 100%;
+    z-index: 15;
   }
 
-  .btn:hover, .navbarBtn:hover {
+  .btn:hover, .navbarBtn:hover{
     text-decoration: none;
   }
-  
+
   /*btn_background*/
   .effect04 {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
