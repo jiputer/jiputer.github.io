@@ -9,16 +9,18 @@
     width: 40vmax;
     margin-left: 10vmin;
 }
-header{
+.stdHeader {
+    margin-bottom: 5vh;
     position: relative;
     align-items: left;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: left;
     font-size: xxx-large;
     color: #F7CE5B;
 }
-p{
+.stdP {
     align-items: left;
     display: flex;
     word-wrap: normal;

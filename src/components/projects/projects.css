@@ -2,21 +2,27 @@
     align-items: left;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: left;
     margin-left:10vmin;
 }
 
 .projects{
     align-items: left;
+    flex-wrap: wrap;
     display: flexbox;
     flex-direction: row;
     justify-content: left;
 }
 
-.projectheader{
-    font-size: larger;
-}
-
-p{
-    font-size:large;
+.sectionTitle{
+    margin-top: 10vh;
+    position: relative;
+    align-items: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    font-size: x-large;
+    color: #F7CE5B;
 }

@@ -1,7 +1,7 @@
 .mainContainer{
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     margin: 5vw, 5vh;
     width: 100%;
@@ -12,6 +12,8 @@
     display: -webkit-inline-flex;
     flex-flow: row wrap;
     padding: 5vw;
+    flex-wrap: wrap;
+
     margin-bottom: 20vh;
     margin-left:2vw;
     margin-top:2vh;
@@ -22,6 +24,8 @@
 .projectsContainer{
     display: -webkit-inline-flex;
     flex-flow: row wrap;
+    flex-wrap: wrap;
+
     padding: 10vw, 10vh;
     margin-bottom: 20vw;
     width: 100vw;
@@ -42,10 +46,4 @@
     padding:  10px 0px;
     width: 250px;
     margin-left: 25vw;
-}
-.sectionTitle{
-    z-index: index inherit;
-    justify-content: left;
-    font-size: xxxx-large;
-    align-items: left;
 }

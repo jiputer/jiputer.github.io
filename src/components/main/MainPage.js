@@ -20,12 +20,13 @@ function MainPage() {
             <ButtonLink text = "RESUME"/>
           </div>
     </div>
- <header className="sectionTitle">Projects</header>
-
     <div className = "projectsContainer">
     
     <Projects/>
     </div>
+    <footer>
+      Created by John P. Ma                                             
+    </footer>
     </div>
   );
 }
