@@ -38,11 +38,12 @@ function Navbar() {
 
         {isOpen && (
         <div className="barContainer" >
-        <NavBarButton text = "HOME"/>
-        <NavBarButton text = "COURSES"/>
-        <NavBarButton text = "EXPERIENCE"/>
-        <NavBarButton text = "PROJECTS"/>
-        <NavBarButton text = "RESUME"/>
+        <NavBarButton link="#AboutMe" text = "ABOUT ME"/>
+        <NavBarButton link="#Experience" text = "EXPERIENCE"/>
+        <NavBarButton link="#Projects" text = "PROJECTS"/>
+        <NavBarButton link="#Skills" text = "SKILLS"/>
+        <NavBarButton link="#Resume" text = "RESUME"/>
+        
         </div>
         )}
     </nav>

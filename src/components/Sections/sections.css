@@ -13,10 +13,12 @@
     display: flexbox;
     flex-direction: row;
     justify-content: left;
+    margin:10%;
 }
 
 .sectionTitle{
     margin-top: 10vh;
+    margin-bottom: 4vh;
     position: relative;
     align-items: left;
     display: flex;
@@ -27,13 +29,21 @@
     color: #F7CE5B;
 }
 
+li {
+    color: #F7CE5B;
+}
+
+li span{
+    font-size: large;
+    color: #F7CE5B;
+}
 .sectionText{
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     align-items: left;
     display: flex;
     word-wrap: normal;
     flex-wrap: wrap;
-
     justify-content: left;
     font-size: large;
     color: #F7CE5B;

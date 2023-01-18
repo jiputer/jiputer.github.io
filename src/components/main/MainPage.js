@@ -2,7 +2,8 @@ import "./MainPage.css"
 import ButtonLink  from "../buttons/Button";
 import AboutMe from "../aboutMe/AboutMe";
 import Navbar from "../navbar/NavBar";
-import Projects from "../projects/ProjectsSection";
+import Projects from "../Sections/ProjectsSection";
+import Experience from "../Sections/Experience";
 import Background from "../background/Background";
 
 function MainPage() {
@@ -11,17 +12,19 @@ function MainPage() {
     <Background/>
 
     <Navbar/>
-    <div className = "landingContainer">
+    <div id="AboutMe" className = "landingContainer">
       <AboutMe/>
           <div className="buttonContainer">
-            <ButtonLink text="COURSES" />
-            <ButtonLink text = "EXPERIENCE"/>
-            <ButtonLink text = "PROJECTS"/>
-            <ButtonLink text = "RESUME"/>
+            
+            <ButtonLink link= "#Experience" text = "EXPERIENCE"/>
+            <ButtonLink link = "#Projects" text = "PROJECTS"/>
+            <ButtonLink link="#Skills" text="SKILLS" />
+            <ButtonLink link = "#Resume" text = "RESUME"/>
+            
           </div>
     </div>
     <div className = "projectsContainer">
-    
+    <Experience/>
     <Projects/>
     </div>
     <footer>
