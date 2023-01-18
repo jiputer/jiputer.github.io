@@ -23,7 +23,7 @@
     text-align: center;
 
     min-width: 160px;
-    min-height: 70px;
+    min-height: 40px;
     width: 10vw;
     height: 14%;
     margin: 1vw;
@@ -35,7 +35,7 @@
     
     background-color: transparent;
     min-width: 160px;
-    min-height: 70px;
+    min-height: 40px;
     width: 12vw;
     height: 3vw;
   }
@@ -67,7 +67,7 @@
     text-decoration: none;
     text-transform: uppercase;
     min-width: 100%;
-    z-index: 15;
+    z-index: 10;
   }
 
   .btn:hover, .navbarBtn:hover{
@@ -96,7 +96,7 @@
   /* 文字1を上に */
   .effect04:hover{
   
-    background-color: #38726C;
+    background-color: #9DC7C8;
   }
   
   /* HOVERしたら文字1を上に */

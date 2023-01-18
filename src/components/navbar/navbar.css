@@ -7,16 +7,7 @@
     transition: all 0.3s ease-in-out;
   
   }
-.barContainer{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    left:0;
-    flex-direction: row;
-    margin:0;
-    color:transparent;
-    background-color: transparent;
-  }
+
  .navbar .sticky {
     justify-content: flex-start;
     position: fixed;
@@ -27,55 +18,99 @@
   }
   .navbar {
     display: none;
+    z-index: 10;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: transparent;
     height: 60px;
+    z-index: 16;
+  }
+  .navButtonContainer{
+    margin: 0px;
   }
 
+  .hamburger{
+    display: none;
+    z-index:11;
+  }
+
+
+  .navbar.show.sticky .barContainer {
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin:0;
+    height: 45px;
+    outline: transparent;
+    color:transparent;
+  }
+
+
+
+
+  @media screen and (max-width: 700px) {
+    .navbar.open.show.sticky{
+      background-color: #F7CE5B;
+    }
   
-  @media screen and (max-width: 600px) {
-    .barContainer {
-      display: none;
+    .navbar.open.show.sticky .barContainer  {
+      
       justify-content: flex-start;
       align-items: flex-start;
       left:0;
       flex-direction: column;
       margin:0;
-      color:transparent;
-      background-color: transparent;
+      background-color: #F7CE5B;
+      height:auto;
+
+
+    }
+    .navButtons{
+      margin:0px;
+      height: auto;
+    }
+    .navButtonContainer{
+      margin: 0px;
     }
     .navbar{
-      display: none;
+      background-color: #F7CE5B;
+
       justify-content: flex-start;
       align-items: flex-start;
-      background-color: transparent;
-      height: 60px;
     }
     .hamburger{
       display: block;
+      margin:10px;
+
     }
   }
   
   
   @media screen and (min-width: 1000px) {
+    .navbar.open.show.sticky{
+      background-color: transparent;
+    }
     .barContainer {
-      display: flex;
+      
       justify-content: flex-start;
       align-items: flex-start;
       left:0;
       flex-direction: row;
       margin:0;
-      color:transparent;
       background-color: transparent;
     }
     .navbar{
       justify-content: flex-start;
       align-items: flex-start;
-      background-color: transparent;
-      height: 60px;
+      height: 40px;
     }
-    .hamburger{
-      display: none;
+    .navButtons{
+      margin:0px;
+      height: auto;
     }
+    .navButtonContainer{
+      margin: 0px;
+    }
+
   }

@@ -26,3 +26,15 @@
     font-size: x-large;
     color: #F7CE5B;
 }
+
+.sectionText{
+    margin: 5%;
+    align-items: left;
+    display: flex;
+    word-wrap: normal;
+    flex-wrap: wrap;
+
+    justify-content: left;
+    font-size: large;
+    color: #F7CE5B;
+}

@@ -6,7 +6,11 @@ function Projects() {
         <div className="project">
             <header className="stdHeader"> Projects </header>
             <header className="sectionTitle">Tabs</header>
-            <p className="stdP">A web-application that was built using TypeScript. </p>
+            <p className="sectionText">A web-application that was built using TypeScript. </p>
+            <header className="sectionTitle">Tabs</header>
+            <p className="sectionText">A web-application that was built using TypeScript. </p>
+            <header className="sectionTitle">Tabs</header>
+            <p className="sectionText">A web-application that was built using TypeScript. </p>
          </div>
          
     </div>
