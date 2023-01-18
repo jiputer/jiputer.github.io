@@ -9,23 +9,20 @@ function Navbar() {
     const navbar = document.querySelector('.navbar');
     const h = document.querySelector('body').clientHeight;
     const w = document.querySelector('body').clientWidth;
-    
+    if (w < 600){
+      setIsOpen(false);
+    }
+
     console.log("height: "+ h);
     window.addEventListener('scroll', () => {
       if (window.scrollY > h*0.25) {
-        if (w < 600){
-          setIsOpen(false);
-        }
-        else{
-          setIsOpen(true);
-        }
+        
         navbar.style.display = 'block';
         navbar.classList.add('show');
         navbar.classList.add('sticky');
         
         
       } else {
-        setIsOpen(false);
         navbar.style.display = 'none';
         navbar.classList.remove('sticky');
         navbar.classList.remove('show');

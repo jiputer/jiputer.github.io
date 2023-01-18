@@ -54,8 +54,7 @@
       background-color: #F7CE5B;
     }
   
-    .navbar.open.show.sticky .barContainer  {
-      
+    .navbar.open.show.sticky .barContainer  { 
       justify-content: flex-start;
       align-items: flex-start;
       left:0;
@@ -63,8 +62,6 @@
       margin:0;
       background-color: #F7CE5B;
       height:auto;
-
-
     }
     .navButtons{
       margin:0px;
