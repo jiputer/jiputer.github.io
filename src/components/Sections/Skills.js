@@ -2,34 +2,44 @@ import "./sections.css";
 
 function Skills() {
   return (
-    <div id="Experience" className = "projects"> 
+    <div name="skills" id="skills" className = "projects"> 
         <div className="project">
-            <header class="stdHeader"> Experience </header>
-            <header class="sectionTitle">Build Infrastructure Dev (Blackberry QNX, 2021) </header>
+            <header class="stdHeader"> Skills </header>
+            <header class="sectionTitle"> Summary</header>
+            <p class = "sectionText"> As a developer, I have familliarity with software design principles and techniques such as SOLID. In addition, I have also used Agile methodology (mainly scrum) to develop applications for some of my courses, in which I have done well in. I am also familliar with some data science and machine learning techniques with a mathematical background alongside Python. Below is a list of programming langauges and libraries/frameworks that I have developed in.</p>
             <ul>
             <li> 
             <span>
-            Migrated a significant number of old Jenkins jobs 
-            from virtual machines to docker containers which
-            resulted in the ability to re-purpose storage and
-            computer resources to facilitate system updates</span>
+            Java
+            </span>
             </li>
             <li> 
             <span >
-            Wrote Python scripts to automate
-            documentation of build containers and wrote
-            shell scripts to execute the scripts, and to execute 
-            build steps
+            C++
             </span>
             </li>
             <li>
             <span>
-            Replaced a crucial plug-in for Jenkins that was
-            unreliable, using a REST API in Python 
-            which was  implemented with a Jenkins job
+            C
+            </span>
+            </li>
+            <li>
+            <span>
+            JavaScript/TypeScript (familliar with frameworks/libraries such as NodeJS, ReactJS, GraphQL, ApolloServer/Client)
+            </span>
+            </li>
+            <li>
+            <span>
+            Python (familliar with NumPy, TensorFlow, scikit, Django, and http modules)
+            </span>
+            </li>
+            <li>
+            <span>
+            HTML, CSS, R (with familliarity of tidyverse and other popular libraries)
             </span>
             </li>
             </ul>
+            
         </div>
          
     </div>

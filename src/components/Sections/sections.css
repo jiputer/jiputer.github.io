@@ -1,4 +1,5 @@
 .project{
+    position: relative;
     align-items: left;
     display: flex;
     flex-direction: column;
@@ -48,3 +49,7 @@ li span{
     font-size: large;
     color: #F7CE5B;
 }
+
+#experience, #aboutme, #projects, #skills, #resume {
+    scroll-margin-top: 100px;
+  }

@@ -2,8 +2,8 @@ import "./sections.css";
 
 function Experience() {
   return (
-    <div id="Experience" className = "projects"> 
-        <div className="project">
+    <div  name="experience" id="experience" className = "projects"> 
+        <div  className="project">
         
             <header class="stdHeader"> Experience </header>
             <header class="sectionTitle">Build Infrastructure Dev (Blackberry QNX, 2021) </header>

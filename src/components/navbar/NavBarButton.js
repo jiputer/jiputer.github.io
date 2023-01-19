@@ -6,7 +6,7 @@ function NavBarButton({text, link}) {
 
       <div className="navButtons">
         <div className="navButtonContainer">
-            <a href={link} className="navbarBtn effect04" rel="noreferrer" data-sm-link-text={text} target="_blank"><span>{text}</span></a>
+            <a href={link} className="navbarBtn effect04" rel="noreferrer" data-sm-link-text={text} ><span>{text}</span></a>
         </div>
       </div>
 
