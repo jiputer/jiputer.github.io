@@ -15,7 +15,7 @@ function Navbar() {
 
     console.log("height: "+ h);
     window.addEventListener('scroll', () => {
-      if (window.scrollY > h*0.25) {
+      if (window.scrollY > h*0.20) {
         
         navbar.style.display = 'block';
         navbar.classList.add('show');
