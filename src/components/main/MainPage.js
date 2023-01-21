@@ -20,7 +20,7 @@ function MainPage() {
             <ButtonLink link= "#experience" text = "EXPERIENCE"/>
             <ButtonLink link = "#projects" text = "PROJECTS"/>
             <ButtonLink link="#skills" text="SKILLS" />
-            <ButtonLink link = "#resume" text = "RESUME"/>
+            <ButtonLink link = "https://docs.google.com/document/d/1sUPe8bQDaqvuTIrh3dt37ciO_BN3zJ20lhItL9QA4Uk/edit?usp=sharing" text = "RESUME"/>
             
           </div>
     </div>

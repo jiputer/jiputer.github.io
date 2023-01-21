@@ -42,7 +42,7 @@ function Navbar() {
         <NavBarButton link="#experience" text = "EXPERIENCE"/>
         <NavBarButton link="#projects" text = "PROJECTS"/>
         <NavBarButton link="#skills" text = "SKILLS"/>
-        <NavBarButton link="#resume" text = "RESUME"/>
+        <NavBarButton link="https://docs.google.com/document/d/1sUPe8bQDaqvuTIrh3dt37ciO_BN3zJ20lhItL9QA4Uk/edit?usp=sharing" text = "RESUME"/>
         
         </div>
         )}
