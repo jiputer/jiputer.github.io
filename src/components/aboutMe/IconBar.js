@@ -10,7 +10,7 @@ function IconBar() {
       <a  href="https://github.com/jipperspippers" >
       <img src={GithubIcon}className="icon" alt="GithubIcon" /></a>
 
-      <a href = "https://www.linkedin.com/in/john-ma-developer">
+      <a href = "https://www.linkedin.com/in/john-p-ma">
       <img src={LinkedInIcon} className="icon" alt="LinkedInIcon" /></a>
       </div>
     </div>
