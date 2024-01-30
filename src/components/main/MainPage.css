@@ -9,25 +9,35 @@
     background-color: #0E0F19;
 }
 
-.landingContainer{
+/* .landingContainer{
     display: -webkit-inline-flex;
     flex-flow: row wrap;
     padding: 5vw;
     flex-wrap: wrap;
-
     margin-bottom: 20vh;
-    margin-left:2vw;
     margin-top:2vh;
     margin-right:2vw;
     width: 90vw;
     
+} */
+
+.landingContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5vw;
+    flex-wrap: nowrap;
+    margin-bottom: 20vh;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    width: 90vw;
+    flex-direction: row;
 }
 
-.projectsContainer{
+
+/* .subjectsContainer{
     display: -webkit-inline-flex;
     flex-flow: row wrap;
     flex-wrap: wrap;
-
     padding: 10vw, 10vh;
     margin-bottom: 20vw;
     width: 100vw;
@@ -36,9 +46,34 @@
     margin-bottom: 10vh;
     width: 90vmax;
 
+} */
+
+/* .subjectsContainer {
+    display: -webkit-inline-flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    padding: 10vw, 10vh;
+    margin-bottom: 20vw;
+    width: 100vw;
+    padding-top: 10vh;
+    margin-left: 7vh;
+    width: 100vmax;
+} */
+
+.subjectsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    padding: 0,0;
+    margin-top: 2vw;
+    /* width: 100vw; */
+    /* padding-top: 10vh; */
+    margin-left: revert-layer;
+    width: 100%;
+    flex-direction: row;
 }
 .buttonContainer{
-    display: inline-flexbox;
+    /* display: inline-flexbox;
     flex-flow: row wrap;
     padding: 10vw;
     margin-bottom: 20vw;
@@ -46,6 +81,17 @@
     text-align: center;
     background-color: transparent;
     padding:  10px 0px;
-    width: 250px;
-    margin-left: 20vw;
+    width: 250px; 
+     margin-left: 10vw; */
+     display: flex;
+     text-align: center;
+     background-color: transparent;
+     /* padding: 10px 0px; */
+     width: 100%;
+     position: relative;
+     margin-bottom: 5vh;
+     margin-top: 5vh;
+     flex-direction: row;
+     flex-wrap: wrap;
+     right:0.5vh;
 }

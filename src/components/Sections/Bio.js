@@ -1,0 +1,19 @@
+import "./sections.css";
+
+function Bio() {
+  return (
+    <div name="bio" id="bio" className = "sections"> 
+        <div className="section">
+            <header className="stdHeader"> About Me </header>
+            <p className="sectionText">Hey, I am a university student from Toronto. 
+                I'm currently studying Statistics, specializing in 
+                machine learning at University of Toronto. Some of my main interests 
+                include machine learning, data science, and full-stack development. </p>
+
+        </div>
+    </div>
+
+  );
+}
+
+export default Bio;

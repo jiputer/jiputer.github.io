@@ -2,11 +2,19 @@ import "./sections.css";
 
 function Skills() {
   return (
-    <div name="skills" id="skills" className = "projects"> 
-        <div className="project">
-            <header class="stdHeader"> Skills </header>
-            <header class="sectionTitle"> Summary</header>
-            <p class = "sectionText"> As a developer, I have familliarity with software design principles and techniques such as SOLID. In addition, I have also used Agile methodology (mainly scrum) to develop applications for some of my courses, in which I have done well in. I am also familliar with some data science and machine learning techniques with a mathematical background alongside Python. Below is a list of programming langauges and libraries/frameworks that I have developed in.</p>
+    <div name="skills" id="skills" className = "sections"> 
+        <div className="section">
+            <header className="stdHeader"> Skills </header>
+            <p className = "sectionText"> 
+            As a developer, I possess a strong understanding of software design principles, 
+            including SOLID, and have applied them effectively in various projects. 
+            I am well-versed in Agile methodology, particularly Scrum, having successfully employed it 
+            in the development of applications during my coursework. Furthermore, I have a solid theoretical 
+            foundation in data science and machine learning, complemented by practical experience using Python. 
+            Additionally I have experience in implementing ideas from academic papers and doing thorough research,
+            for the best possible method for a task.
+            Below, you'll find a compilation of programming languages, libraries, and frameworks that I have
+             actively utilized.</p>
             <ul>
             <li> 
             <span>

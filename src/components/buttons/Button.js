@@ -1,11 +1,14 @@
 import "./Button.css"
 
-function ButtonLink({text, link}) {
+
+function ButtonLink(props) {
+
+
   return (
 
-      <div className="buttons">
+      <div className="buttons" onClick={props.onClick}>
         <div className="container">
-            <a href={link} className="btn effect04" rel="noreferrer" data-sm-link-text={text} ><span>{text}</span></a>
+            <a href={props.link} className="btn effect04" rel="noreferrer" data-sm-link-text={props.text} ><span>{props.text}</span></a>
         </div>
       </div>
 
