@@ -1,10 +1,10 @@
 import "./sections.css";
-
+import flower1 from '../assets/flower1.gif'
 function Experience() {
   return (
     <div  name="experience" id="experience" className = "sections"> 
+
         <div  className="section">
-        
             <header class="stdHeader"> Experience </header>
             <header class="sectionTitle"> UTAT Data Processing Member </header>
             <ul>
@@ -53,7 +53,9 @@ function Experience() {
             </li>
             </ul>
         </div>
-         
+        <div className="section">
+            <img src={flower1} alt=":) ..." width="100%" height="500"/>
+        </div>
     </div>
 
   );

@@ -1,4 +1,5 @@
 import "./sections.css";
+import smiley1 from '../assets/smiley1.gif'
 
 function Skills() {
   return (
@@ -49,7 +50,9 @@ function Skills() {
             </ul>
             
         </div>
-         
+        <div className="section">
+            <img src={smiley1} alt=":) ..." width="100%" height="500"/>
+        </div>
     </div>
 
   );

@@ -23,7 +23,7 @@ function AboutMe( ) {
       <ButtonLink text="PROJECTS" onClick={() => {console.log('Projects clicked'); handleChange('projects'); }} />
       <ButtonLink text="SKILLS" onClick={() => {console.log('Skills clicked'); handleChange('skills'); }} />
       <ButtonLink link="https://docs.google.com/document/d/1sUPe8bQDaqvuTIrh3dt37ciO_BN3zJ20lhItL9QA4Uk/edit?usp=sharing" text="RESUME" />
-
+      <ButtonLink text="🎵" onClick={() => {console.log('music clicked'); handleChange('music'); }}/>
             
       </div>
       <CurrentSubject content={selectedContent}/>

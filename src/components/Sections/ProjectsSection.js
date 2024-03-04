@@ -1,5 +1,5 @@
 import "./sections.css";
-
+import flower3 from '../assets/flower3.gif'
 function Projects() {
   return (
     <div name="projects" id="projects" className = "sections"> 
@@ -30,7 +30,10 @@ function Projects() {
             <p className="sectionText">A final project to study the correlated variables of SBP. Regression and outlier analysis was done in R with multiple techniques to showcase. </p>
             <a className="sectionText" href="not available">Github Link</a>
          </div>
-         
+         <div className="section">
+        <img src={flower3} alt=":) ..." />
+
+        </div>
     </div>
 
   );
