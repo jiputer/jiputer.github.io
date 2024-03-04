@@ -1,5 +1,5 @@
 import "./sections.css";
-import smiley1 from '../assets/smiley1.gif'
+import smiley5 from '../assets/smiley5.gif'
 
 function Skills() {
   return (
@@ -51,7 +51,7 @@ function Skills() {
             
         </div>
         <div className="section">
-            <img src={smiley1} alt=":) ..." width="100%" height="500"/>
+            <img src={smiley5} alt=":) ..." width="60%" height="60%"/>
         </div>
     </div>
 
