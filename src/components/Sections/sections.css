@@ -52,6 +52,12 @@ li {
      .section{
         width:100%;
      }
+     .sections .section .sectionText{
+        width:100%;
+     }
+     .spotify_iframe_container{
+        width:100%
+     }
 }  
 
 li span{
@@ -59,8 +65,13 @@ li span{
     font-size: medium;
     color: #F7CE5B;
 }
+.spotify_iframe_container{
+    width:100%
+
+}
 .spotify_iframe{
     z-index: 999;
+
 }
 .sectionText{
     margin-top:2vh;
