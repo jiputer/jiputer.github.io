@@ -59,6 +59,9 @@ li span{
     font-size: medium;
     color: #F7CE5B;
 }
+.spotify_iframe{
+    z-index: 999;
+}
 .sectionText{
     margin-top:2vh;
     margin-bottom: 5%;
