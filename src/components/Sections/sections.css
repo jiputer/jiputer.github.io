@@ -49,6 +49,9 @@ li {
      .section .sectionText {
          width:100%;
      }
+     .section{
+        width:100%;
+     }
 }  
 
 li span{
