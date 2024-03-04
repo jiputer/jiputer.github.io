@@ -31,8 +31,7 @@ function Projects() {
             <a className="sectionText" href="not available">Github Link</a>
          </div>
          <div className="section">
-        <img src={flower3} alt=":) ..." />
-
+            <img src={flower3} alt=":) ..." width="80%" height="40%" />
         </div>
     </div>
 
