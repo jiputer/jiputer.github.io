@@ -95,6 +95,7 @@ li span{
   .game{
     width:960px;
     height:670px;
+    z-index: 90;
   }
 
 
