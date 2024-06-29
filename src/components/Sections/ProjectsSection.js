@@ -8,8 +8,8 @@ function Projects() {
             <header  className="stdHeader"> Finished Projects </header>
 
             <header className="sectionTitle"> Galaxia Bound (ScoreSpace 30 [Game Jam], June 2024) </header>
-            <p className="sectionText"> Browser game made in Unity. </p>
-            <a className="sectionText" href="https://github.com/jiputer/" >  Link to the game (or you can play at the bottom of the 🤠 page) </a>
+            <p className="sectionText"> Browser game made in Unity. Made along with Anthony Qin (qin2500), and Klein Harrigan (KleinKodes) </p>
+            <a className="sectionText" href="https://qin2500.itch.io/galaxia-bound" >  Link to the game (or you can play at the bottom of the 🤠 page) </a>
 
             <header className="sectionTitle"> 3D Diffusion Model for Destriping and Denoising Hyperspectral images (University of Toronto - Aerospace Team (UTAT), June 2024) </header>
             <p className="sectionText"> Academic paper for the SmallSat Conference, 2024</p>
@@ -57,7 +57,7 @@ function Projects() {
             <p className="sectionText">Written in Python, using Discord's API to manage schedules. Originally written for the fitness club to create roles/delete roles based on events that a member is attending. Issue is the python Discord API has not implemented certain features for this to work, and requires a wait for the PR.  </p>
             <a className="sectionText" href="not available">Github Link</a>
          </div>
-         <div className="section">
+         <div className="sectionImage">
             <img src={flower3} alt=":) ..." width="80%" height="40%" />
         </div>
     </div>
