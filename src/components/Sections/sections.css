@@ -88,3 +88,15 @@ li span{
 #experience, #aboutme, #projects, #skills, #resume {
     scroll-margin-top: 50px;
   }
+
+  .game{
+    width:960px;
+    height:670px;
+  }
+
+
+  @media screen and (max-width : 906px){
+   .game{
+    visibility:hidden;
+    }
+  }

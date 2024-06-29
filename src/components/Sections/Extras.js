@@ -1,8 +1,8 @@
 import "./sections.css";
 import flower2 from '../assets/flower2.gif'
-function Music() {
+function Extras() {
   return (
-    <div name="music" id="music" className = "sections"> 
+    <div name="extras" id="extras" className = "sections"> 
         <div className="section">
             <header className="stdHeader"> What I'm currently Listening To :) </header>
             <p className="sectionText"> I really love listening to music, and especially new genres, 
@@ -14,9 +14,14 @@ function Music() {
         <div className="section">
         <img src={flower2} alt=":) ..." width="100%" height="100%"/>
         </div>
+        <div className="game">
+          <header className="stdHeader"> Galaxia Bound - SpaceScore 30 Winner!</header>
+        <iframe frameborder="0" src="https://itch.io/embed-upload/10792162?color=2e2c3b" allowfullscreen="" width="960" height="670"><a href="https://qin2500.itch.io/galaxia-bound">
+        </a></iframe>
+        </div>
     </div>
 
   );
 }
 
-export default Music;
+export default Extras;

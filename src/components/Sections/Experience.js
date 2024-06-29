@@ -6,14 +6,23 @@ function Experience() {
 
         <div  className="section">
             <header class="stdHeader"> Experience </header>
-            <header class="sectionTitle"> UTAT Data Processing Member </header>
+            <header class="sectionTitle"> Undergraduate Researcher (University of Toronto, 2024-present) </header>
             <ul>
             <li> 
             <p className="sectionText">
-            Researched models in denoising and destriping hyperspectral images, 
+            Researching, and developing models to estimate biomass through a phone camera.
+            </p>
+            </li>
+            </ul>
+            <header class="sectionTitle"> Machine Learning Researcher (University of Toronto - Aerospace Team, September 2023-present) </header>
+            <ul>
+            <li> 
+            <p className="sectionText">
+            As a data processing member, I researched models in denoising and destriping hyperspectral images, 
             and developed a function to generate similar types of stripes that 
-            would occur in real scenearios. This function is used to generate 
-            images to help train a model to destripe such images from a hyperspectral camera
+            would occur in real scenearios. This function is used to create synthetic 
+            images to help train a model to destripe such images from a hyperspectral camera. Resulted in 
+            an academic paper presented at SmallSat Conference 2024.
 
             </p>
             </li>
