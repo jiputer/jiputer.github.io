@@ -1,10 +1,13 @@
 import "./sections.css";
 import flower1 from '../assets/flower1.gif'
+import Timeline from "../timeline/Timeline";
 function Experience() {
   return (
+   
     <div  name="experience" id="experience" className = "sections"> 
-
+       
         <div  className="section">
+            <Timeline /> 
             <header class="stdHeader"> Experience </header>
             <header class="sectionTitle"> Undergraduate Researcher (University of Toronto, 2024-present) </header>
             <ul>
