@@ -14,7 +14,7 @@ function Bio() {
 
         </div>
         <div className="section">
-          <img src={smiley3} alt=":) ..."width="70%" height="70%" />
+          <img src={smiley3} alt=":) ..."width="500em" height="500em" />
         </div>
 
     </div>

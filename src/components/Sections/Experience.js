@@ -66,7 +66,7 @@ function Experience() {
             </ul>
         </div>
         <div className="section">
-            <img src={flower1} alt=":) ..." width="100%" height="500"/>
+            <img src={flower1} alt=":) ..." width="500em" height="500em"/>
         </div>
     </div>
 

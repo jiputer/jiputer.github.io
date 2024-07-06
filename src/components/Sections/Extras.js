@@ -12,7 +12,7 @@ function Extras() {
         </div>
 
         <div className="section">
-        <img src={flower2} alt=":) ..." width="100%" height="100%"/>
+        <img src={flower2} alt=":) ..." width="500em" height="500em"/>
         </div>
         <div className="game">
           <header className="stdHeader"> Galaxia Bound - SpaceScore 30 Winner!</header>

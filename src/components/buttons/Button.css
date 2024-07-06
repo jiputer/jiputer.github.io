@@ -12,7 +12,8 @@
   body {
     background: #0E0F19;
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 400;
+    font-weight: 800;
+    
   }
   
   .buttons, .navButtons {
@@ -30,7 +31,11 @@
     
   /*   padding: 2em 0em; */
   }
-  
+  @media screen and (max-width : 906px){
+    .buttons , .navButtons {
+      margin:0;
+     }
+   }
   .container, .navButtonContainer {
     
     background-color: transparent;
@@ -60,7 +65,7 @@
     letter-spacing: 0.1em;
     cursor: pointer;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 45px;
     position: relative;
     text-decoration: none;

@@ -10,7 +10,7 @@ function MainPage() {
   
   return (
     <div className = "mainContainer">
-    <Background/>
+   
 
     {/* <Navbar/> */}
     <div id="aboutme" className = "landingContainer">
