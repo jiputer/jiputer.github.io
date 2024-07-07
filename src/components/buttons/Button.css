@@ -23,8 +23,7 @@
     justify-content: center;
     text-align: center;
 
-    min-width: 100px;
-    min-height: 30px;
+
     
     height: 10%;
     margin: 0.5vw;
@@ -34,12 +33,14 @@
   @media screen and (max-width : 906px){
     .buttons , .navButtons {
       margin:0;
+
      }
+
    }
   .container, .navButtonContainer {
     
     background-color: transparent;
-    min-width: 100px;
+    min-width: 150px;
     min-height: 30px;
     width: 12vw;
   }
