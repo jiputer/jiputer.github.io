@@ -4,7 +4,7 @@ function Projects() {
   
   return (
     <div name="projects" id="projects" className = "sections"> 
-        <div   className="section">
+        <div className="section_projects">
             <header  className="stdHeader"> Finished Projects </header>
 
             <header className="sectionTitle"> Galaxia Bound (ScoreSpace 30 [Game Jam], June 2024) </header>

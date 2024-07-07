@@ -2,7 +2,7 @@ import "./background.css";
 
 function Background() {
   return (
-<div>
+<div className="background">
 
 
 <div className="lines">

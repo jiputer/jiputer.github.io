@@ -1,8 +1,7 @@
-
 import Bio from "../sections/Bio";
 import Projects from "../sections/ProjectsSection";
 import Experience from "../sections/Experience";
-import Skills from "../sections/Skills";
+
 import Extras from "../sections/Extras";
 
 function CurrentSubject({content}) {
@@ -14,8 +13,7 @@ function CurrentSubject({content}) {
         return <Experience />;
       case 'projects':
         return <Projects />;
-      case 'skills':
-        return <Skills />;
+
       case 'extras':
         return <Extras />
       default:

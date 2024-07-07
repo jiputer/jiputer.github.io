@@ -1,23 +1,23 @@
 .aboutMeContainer{
     align-items: left;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    justify-content: left;
-    text-align: left;
+  
+   
     flex-wrap: wrap;
     background-color: #0E0F19;
     width: 100%;
-    margin-left: 2vmin;
+
 }
 .stdHeader {
     margin-bottom: 2vh;
     position: relative;
     align-items: left;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+
     justify-content: left;
     font-size: x-large;
+    width: 90%;
     color: #F7CE5B;
 }
 .stdP {
@@ -30,5 +30,6 @@
     margin-right: 25vmin;
     justify-content: left;
     font-size: large;
+    width: 90%;
     color: #F7CE5B;
 }

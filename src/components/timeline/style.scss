@@ -24,19 +24,18 @@ body {
 
 /* Styling */
 .timeline {
-  margin: 4em auto;
   position: relative;
   max-width: 46em;
   
   &:before {
-    background-color: $color-1;
+    background-color: transparent;
     content: '';
     margin-left: -1px;
     position: absolute;
     top: 0;
     left: 2em;
     width: 2px;
-    height: 100%;
+    height: 80%;
   }
 }
 
@@ -60,7 +59,7 @@ body {
   padding: 2em;
   position: relative;
   top: -1.875em;
-  left: 4em;
+  left: 10em;
   width: 80%;
   
   h3 {
@@ -80,7 +79,7 @@ body {
   }
   
   p:not(.timeline-event-thumbnail) {
-    color: #948B89;
+    color: #a8a3a2;
     padding-bottom: 1.2em;
   }
 }
@@ -88,7 +87,7 @@ body {
 .timeline-event-icon {
   @include transition(transform 0.2s ease-in);
   @include rotate (45deg);
-  
+
 
   background: transparent;
 
@@ -96,9 +95,9 @@ body {
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
   top: 0;
-  left: -6em;
-  width: 12em ;
-  height: 12em;
+  left: 0;
+  width: 10em ;
+  height: 10em;
 }
 
 .timeline-event-thumbnail {
@@ -112,3 +111,39 @@ body {
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
 }
+
+@media screen and (max-width: 700px)  
+{         
+  .timeline-event-icon {
+    width: 5em;
+    height:5em;
+  }
+  .timeline-event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 2em;
+    width: 80%;
+    
+    h3 {
+      color: $color-1;
+      font-size: 1em;
+    }
+    
+    h4 {
+      color: $color-1;
+      font-size: 0.8em;
+      margin-bottom: 1.2em;
+    }
+    
+    strong {
+      color: $color-1;
+      font-weight: 700;
+    }
+    
+    p:not(.timeline-event-thumbnail) {
+      color: #a8a3a2;
+      padding-bottom: 0.8em;
+    }
+  }
+}  

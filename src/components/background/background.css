@@ -1,3 +1,7 @@
+.background{
+  width:100%;
+}
+
 .lines {
   position: absolute;
   top: 0;
