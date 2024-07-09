@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.50dac323.css",
-    "main.js": "/static/js/main.c36ad279.js",
+    "main.css": "/static/css/main.2d65b9d5.css",
+    "main.js": "/static/js/main.9633e112.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/timelineFlower.png": "/static/media/timelineFlower.63e98beb596cbea09dea.png",
     "static/media/finch_logo.png": "/static/media/finch_logo.82c13b6ea0eb87ce6e56.png",
     "static/media/smiley3.gif": "/static/media/smiley3.ff4961b9b87ab01a74cc.gif",
     "static/media/java-icon.png": "/static/media/java-icon.1eb26d15c955096cc5ce.png",
     "static/media/flower1.gif": "/static/media/flower1.16813c3510c4cc880a47.gif",
-    "static/media/University_of_Toronto-Logo.png": "/static/media/University_of_Toronto-Logo.3fb04deb007ae15b5fed.png",
+    "static/media/intelliverse.png": "/static/media/intelliverse.7b55de74b3cc35c81022.png",
     "static/media/jenkins.png": "/static/media/jenkins.e8a316862341297c8459.png",
     "static/media/linux.png": "/static/media/linux.65a25bb295acbf59bbf1.png",
     "static/media/postgreSQL.png": "/static/media/postgreSQL.1840ed8db24169a95af0.png",
+    "static/media/diffusionimage.png": "/static/media/diffusionimage.d1a8edd968c0f679f811.png",
     "static/media/tensorflow.png": "/static/media/tensorflow.bb0181bbaa1477d7936f.png",
-    "static/media/galaxiabound.png": "/static/media/galaxiabound.a5fb8082a8f1f36a5616.png",
+    "static/media/uoftlogo.png": "/static/media/uoftlogo.ca584a42a325758e040f.png",
+    "static/media/galaxiabound2.png": "/static/media/galaxiabound2.a5fb8082a8f1f36a5616.png",
     "static/media/docker.png": "/static/media/docker.ac813095b1b71af275ce.png",
     "static/media/mongodb.png": "/static/media/mongodb.bf8042403d8797a7ff1b.png",
     "static/media/rlogo.png": "/static/media/rlogo.5a886bbc447aa357b023.png",
@@ -28,18 +30,19 @@
     "static/media/css.png": "/static/media/css.6eb18ad7d8487a413955.png",
     "static/media/git.png": "/static/media/git.f43e2ebc6cb742103593.png",
     "static/media/html.png": "/static/media/html.5d00fa0013ec44d1696a.png",
+    "static/media/tabsimage.png": "/static/media/tabsimage.c874042b182eaf34f27a.png",
     "static/media/pytorch.png": "/static/media/pytorch.0c542d5564f655262f0f.png",
     "static/media/nodejs.png": "/static/media/nodejs.9493a7030123ccb59d91.png",
     "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
     "static/media/github.svg": "/static/media/github.30a387496f41afe2415a2fe830b5c59b.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.59f11e8cfbb8cb9077c4ad52ff64b07a.svg",
-    "main.50dac323.css.map": "/static/css/main.50dac323.css.map",
-    "main.c36ad279.js.map": "/static/js/main.c36ad279.js.map",
+    "main.2d65b9d5.css.map": "/static/css/main.2d65b9d5.css.map",
+    "main.9633e112.js.map": "/static/js/main.9633e112.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50dac323.css",
-    "static/js/main.c36ad279.js"
+    "static/css/main.2d65b9d5.css",
+    "static/js/main.9633e112.js"
   ]
 }
