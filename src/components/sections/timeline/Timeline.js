@@ -1,4 +1,4 @@
-import "./style.scss";
+import "./timeline.scss";
 import timelineFlower from "../../assets/timelineFlower.png"
 import finchlogo from "../../assets/finch_logo.png"
 import utorontologo from "../../assets/University_of_Toronto-Logo.png"
