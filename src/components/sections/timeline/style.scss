@@ -113,7 +113,10 @@ body {
 }
 
 @media screen and (max-width: 700px)  
-{         
+{ 
+  .timeline{
+    max-width: 100%;
+  }
   .timeline-event-icon {
     width: 5em;
     height:5em;
@@ -147,3 +150,5 @@ body {
     }
   }
 }  
+
+

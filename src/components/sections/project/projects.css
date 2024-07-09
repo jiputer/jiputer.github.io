@@ -46,5 +46,11 @@
     margin-left: -2vh;
   }
   
-  
-  
+
+  @media screen and (max-width: 600px)  
+{      
+.projectCard{
+  width:100%;
+}
+
+}
