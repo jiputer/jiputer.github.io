@@ -30,7 +30,7 @@ I possess a comprehensive understanding of statistical learning algorithms, hard
    tackling sophisticated challenges. Additionally, I have valuable experience in
     conducting research, applying theoretical insights to practical applications and
      contributing to advancements in the field.            
- Below, you'll find a compilation of programming languages, libraries, and frameworks
+ Below, you'll find a compilation of programming languages, tools, libraries, and frameworks
   that I have actively utilized..</p>
 
 

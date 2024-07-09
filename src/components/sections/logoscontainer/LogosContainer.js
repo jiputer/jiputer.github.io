@@ -27,7 +27,7 @@ function LogosContainer() {
     <div class="logos_container">
 
       <div class="logos" id="data-science">
-        <h2>Data Science</h2>
+        <h2>Machine Learning / Data Science</h2>
         <div class="sectionLogo">
           <div class="logo-container">
             <img src={python} alt="python" width="70" height="70" />
