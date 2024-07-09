@@ -1,8 +1,7 @@
-import Bio from "../sections/Bio";
-import Projects from "../sections/ProjectsSection";
-import Experience from "../sections/Experience";
-
-import Extras from "../sections/Extras";
+import Bio from "../pages/Bio";
+import Projects from "../pages/Projects";
+import Experience from "../pages/Experience";
+import Extras from "../pages/Extras";
 
 function CurrentSubject({content}) {
   const renderContent = (content) => {

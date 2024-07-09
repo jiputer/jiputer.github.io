@@ -1,21 +1,26 @@
 import "./logos.css";
-import jenkins from '../assets/jenkins.png'
-import pytorch from '../assets/pytorch.png'
-import nodejs from '../assets/nodejs.png'
-import reactlogo from '../assets/react.png'
-import mongodblogo from '../assets/mongodb.png'
-import tensorflow from '../assets/tensorflow.png'
-import javascript from '../assets/javascript.png'
-import java from '../assets/java-icon.png'
-import c_icon from '../assets/c_icon.png'
-import css from '../assets/css.png'
-import html from '../assets/html.png'
-import python from '../assets/python.svg'
-import typescript_logo from '../assets/typescript.png'
-import docker from '../assets/docker.png'
-import git_logo from '../assets/git.png'
-import postgresql_logo from '../assets/postgreSQL.png'
-import graphql_logo from '../assets/graphql_logo.png'
+import jenkins from '../../assets/jenkins.png'
+import pytorch from '../../assets/pytorch.png'
+import nodejs from '../../assets/nodejs.png'
+import reactlogo from '../../assets/react.png'
+import mongodblogo from '../../assets/mongodb.png'
+import tensorflow from '../../assets/tensorflow.png'
+import javascript from '../../assets/javascript.png'
+import java from '../../assets/java-icon.png'
+import c_icon from '../../assets/c_icon.png'
+import css from '../../assets/css.png'
+import html from '../../assets/html.png'
+import python from '../../assets/python.svg'
+import typescript_logo from '../../assets/typescript.png'
+import docker from '../../assets/docker.png'
+import git_logo from '../../assets/git.png'
+import postgresql_logo from '../../assets/postgreSQL.png'
+import graphql_logo from '../../assets/graphql_logo.png'
+import rlogo from '../../assets/rlogo.png'
+import linuxlogo from '../../assets/linux.png'
+import numpylogo from '../../assets/numpy.png'
+import pandaslogo from '../../assets/pandas.png'
+import bashlogo from '../../assets/bash.png'
 
 function LogosContainer() {
   return (
@@ -36,11 +41,25 @@ function LogosContainer() {
             <img src={tensorflow} alt="tensorflow" width="70" height="70" />
             <p>TensorFlow</p>
           </div>
+          <div class="logo-container">
+            <img src={numpylogo} alt="numpylogo" width="70" height="70" />
+            <p>Numpy</p>
+          </div>
+          <div class="logo-container">
+            <img src={pandaslogo} alt="pandaslogo" width="140" height="70" />
+            <p>Pandas</p>
+          </div>
+          <div class="logo-container">
+            <img src={rlogo} alt="R" width="70" height="70" />
+            <p>R</p>
+          </div>
+
+
         </div>
       </div>
 
       <div class="section" id="software-engineering">
-        <h2>Software Engineering</h2>
+        <h2>Dev-Ops / Software Engineering</h2>
         <div class="sectionLogo">
           <div class="logo-container">
             <img src={c_icon} alt="c_icon" width="70" height="70" />
@@ -61,6 +80,14 @@ function LogosContainer() {
           <div class="logo-container">
             <img src={docker} alt="docker"width="70" height="70" />
             <p>Docker</p>
+          </div>
+          <div class="logo-container">
+            <img src={bashlogo} alt="Bash" width="70" height="70" />
+            <p>Bash</p>
+          </div>
+          <div class="logo-container">
+            <img src={linuxlogo} alt="Linux" width="70" height="70" />
+            <p>Linux</p>
           </div>
         </div>
      

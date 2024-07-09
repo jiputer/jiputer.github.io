@@ -1,6 +1,6 @@
 import "./sections.css";
 import flower1 from '../assets/flower1.gif'
-import Timeline from "../timeline/Timeline";
+import Timeline from "../sections/timeline/Timeline";
 
 
 function Experience() {

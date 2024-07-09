@@ -1,6 +1,6 @@
 import "./icons.css"
-import GithubIcon from "./github.svg"
-import LinkedInIcon from "./linkedin.svg"
+import GithubIcon from "../assets/github.svg"
+import LinkedInIcon from "../assets/linkedin.svg"
 
 function IconBar() {
   return (

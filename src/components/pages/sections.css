@@ -28,14 +28,13 @@
 }
 
 .section_projects{
-    position: relative;
-    align-items: left;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
     z-index: 10;
-    width:50%;
+}
+.section_projects_inner{
+    width:65%;
 }
 
 
@@ -150,3 +149,12 @@ li span{
     visibility:hidden;
     }
   }
+
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 2%;
+  }
+  

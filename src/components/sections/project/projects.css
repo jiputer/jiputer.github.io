@@ -1,0 +1,50 @@
+.projectCard {
+    background-color: #1E1F29;
+    border-radius: 8px;
+    margin: 10px;
+    width: 30%;
+    overflow: hidden;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 50;
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .projectImage {
+      background-color: #444;
+      height: 200px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #a8a3a2;
+      }
+    }
+  
+    .projectDetails {
+      padding: 15px;
+  
+      h3 {
+        color: #F7CE5B;
+        margin-top: 0;
+      }
+  
+      p {
+        color:#a8a3a2;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    margin-left: -2vh;
+  }
+  
+  
+  
