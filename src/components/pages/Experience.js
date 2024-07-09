@@ -1,5 +1,5 @@
 import "./sections.css";
-import flower1 from '../assets/flower1.gif'
+import {flower1} from '../assets'
 import Timeline from "../sections/timeline/Timeline";
 
 

@@ -1,5 +1,5 @@
 import "./sections.css";
-import flower2 from '../assets/flower2.gif'
+import {flower2} from '../assets'
 function Extras() {
   return (
     <div name="extras" id="extras" className = "sections"> 

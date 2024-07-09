@@ -1,6 +1,6 @@
 import LogosContainer from "../sections/logoscontainer/LogosContainer";
 import "./sections.css";
-import smiley3 from '../assets/smiley3.gif'
+import {smiley3} from "../assets"
 import ResumeButton from "../buttons/ResumeButton"
 
 function Bio() {

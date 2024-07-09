@@ -1,9 +1,5 @@
 import "./timeline.scss";
-import timelineFlower from "../../assets/timelineFlower.png"
-import finchlogo from "../../assets/finch_logo.png"
-import utorontologo from "../../assets/uoftlogo.png"
-import qnxlogo from "../../assets/qnx.png"
-import methackslogo from "../../assets/methacks_logo.jpg"
+import { timelineFlower, finchlogo, uoftlogo, qnxlogo, methackslogo } from "../../assets";
 
 
 function Timeline() {
@@ -14,7 +10,7 @@ function Timeline() {
 		<img src={timelineFlower} alt=":)" class="timeline-event-icon" />
             
 		<div class="timeline-event-copy">
-            <div ><img src={utorontologo} width="40%" alt="logo"></img></div>
+            <div ><img src={uoftlogo} width="40%" alt="logo"></img></div>
 		<p class="timeline-event-thumbnail">June 2024-present</p>
 		<h3>University of Toronto </h3>
 		<h4>Undergraduate Researcher</h4>
