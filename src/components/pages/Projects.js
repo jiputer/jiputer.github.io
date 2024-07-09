@@ -2,20 +2,24 @@ import "./sections.css";
 import flower3 from '../assets/flower3.gif'
 import '../sections/project/projects.css';
 import ProjectCard  from "../sections/project/ProjectCard";
-import galaxiabound from '../assets/galaxiabound.png'
+import galaxiabound from '../assets/galaxiabound2.png';
+import diffusionimage from "../assets/diffusionimage.png";
+import tabsimage from "../assets/tabsimage.png"
+import intelliverse from "../assets/intelliverse.png"
 
 const projects = [
   {
     title: "Galaxia Bound",
     description: "Browser game made in Unity. Made along with Anthony Qin (qin2500), and Klein Harrigan (KleinKodes)",
     link: "https://qin2500.itch.io/galaxia-bound",
-    image: {galaxiabound},
+    image: galaxiabound,
     linkText: "Link to the game (or you can play at the bottom of the 🤠 page)"
   },
   {
     title: "Beyond the Visible: Jointly Attending to Spectral and Spatial Dimensions with HSI-Diffusion for the FINCH Spacecraft",
     description: "Academic paper for the SmallSat Conference, 2024",
     link: "https://paperswithcode.com/paper/beyond-the-visible-jointly-attending-to",
+    image:diffusionimage,
     linkText: "Link to the Paper"
     
   },
@@ -23,6 +27,7 @@ const projects = [
     title: "Tetris in MIPS ",
     description: "For a course, written in MIPs using assembly knowledge and game rendering techniques for a smooth gameplay and modifiable code.",
     link: "https://github.com/jiputer/",
+    
     linkText: "Available upon request, repo is not public due to plagiarism concerns"
   },
   {
@@ -36,12 +41,14 @@ const projects = [
     title: "Tabs",
     description: "A three-layer architecture application that was written in TypeScript using React-Native. It used a three-layer architecture and CI/CD pipeline was set up using Docker and self written tests.",
     link: "https://github.com/jiputer/Tabs",
+    image:tabsimage,
     linkText: "Github Link"
   },
   {
     title: "Intelliverse ",
     description: "Written for Hack The Valley 7, a three-layer architecture application written in TypeScript using React-Native, GraphQL. Modifiable backend that can be later used with different frontend technologies. Won Top 3 hacks, Best Discovery Hack and Best Use of Github awards.",
-    link: "https://github.com/jiputer/IntelliVerse",
+    link: "https://devpost.com/software/intelliverse",
+    image: intelliverse,
     linkText: "Github Link"
   },
   {
@@ -125,7 +132,7 @@ const Projects = () => {
       ))}
     </div>
     </div>
-    <div><img src={flower3} /></div>
+    <div><img src={flower3} alt=":)"/></div>
     </div>
   );
 };

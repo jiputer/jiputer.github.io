@@ -1,7 +1,7 @@
 import "./timeline.scss";
 import timelineFlower from "../../assets/timelineFlower.png"
 import finchlogo from "../../assets/finch_logo.png"
-import utorontologo from "../../assets/University_of_Toronto-Logo.png"
+import utorontologo from "../../assets/uoftlogo.png"
 import qnxlogo from "../../assets/qnx.png"
 import methackslogo from "../../assets/methacks_logo.jpg"
 
@@ -14,7 +14,7 @@ function Timeline() {
 		<img src={timelineFlower} alt=":)" class="timeline-event-icon" />
             
 		<div class="timeline-event-copy">
-            <div ><img src={utorontologo} width="40%"></img></div>
+            <div ><img src={utorontologo} width="40%" alt="logo"></img></div>
 		<p class="timeline-event-thumbnail">June 2024-present</p>
 		<h3>University of Toronto </h3>
 		<h4>Undergraduate Researcher</h4>
@@ -32,7 +32,7 @@ function Timeline() {
 	<div class="timeline-event">
 		<img src={timelineFlower} alt=":)" class="timeline-event-icon" />
 		<div class="timeline-event-copy">
-            <div><img src={finchlogo} width="25%"></img></div>
+            <div ><img src={finchlogo} width="25%" alt="logo"></img></div>
 		<p class="timeline-event-thumbnail">  September 2023-present</p>
 		<h3>University of Toronto - Aerospace Team</h3>
 		<h4>Machine Learning Researcher</h4>
@@ -57,8 +57,8 @@ function Timeline() {
 	<div class="timeline-event">
 		<img src={timelineFlower} alt=":)" class="timeline-event-icon" />
 		<div class="timeline-event-copy">
-            <div><img src={methackslogo} width="20%"></img></div>
-		<p class="timeline-event-thumbnail"> May 2023</p>
+            <div ><img src={methackslogo} width="25%" alt="logo"></img></div>
+		<p class="timeline-event-thumbnail">  September 2023-present</p>
 		<h3> METHacks</h3>
 		<h4>Hackathon Mentor</h4>
 		<ul>
@@ -76,7 +76,7 @@ function Timeline() {
 	<div class="timeline-event">
 		<img src={timelineFlower} alt=":)" class="timeline-event-icon" />
 		<div class="timeline-event-copy">
-            <div><img src={qnxlogo} width="50%"></img></div>
+            <div><img src={qnxlogo} width="50%" alt="logo"></img></div>
 		<p class="timeline-event-thumbnail"> September 2021 - December 2021</p>
 		<h3> Blackberry QNX</h3>
 		<h4> Build Infrastructure Dev </h4>
