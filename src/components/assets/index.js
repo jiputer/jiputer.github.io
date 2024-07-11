@@ -4,6 +4,7 @@ import tabsimage from "./tabsimage.png";
 import intelliverse from "./intelliverse.png";
 import jenkins from './jenkins.png';
 import pytorch from './pytorch.png';
+import pytorchicon from './pytorch_icon.svg';
 import nodejs from './nodejs.png';
 import reactlogo from './react.png';
 import mongodblogo from './mongodb.png';
@@ -39,8 +40,15 @@ import flower2 from './flower2.gif';
 import flower3 from './flower3.gif';
 import GithubIcon from './github.svg';
 import LinkedInIcon from './linkedin.svg'
+import csharp from './c-sharp-c.svg'
+import unity from './unity-3d.svg'
+import tetrisMIPS from './tetrisMIPS.png'
 
 export {
+    tetrisMIPS,
+    csharp,
+    unity,
+    pytorchicon,
     GithubIcon,
     LinkedInIcon,
     finchlogo,

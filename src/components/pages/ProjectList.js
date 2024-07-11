@@ -6,7 +6,8 @@ const projects = [
       description: "Browser game made in Unity. Made along with Anthony Qin (qin2500), and Klein Harrigan (KleinKodes)",
       link: "https://qin2500.itch.io/galaxia-bound",
       image: assets.galaxiabound,
-      
+      // technologies: [assets.csharp, assets.unity],
+
       linkText: "Link to the game (or you can play at the bottom of the 🤠 page)"
     },
     {
@@ -14,7 +15,7 @@ const projects = [
       description: "Academic paper for the SmallSat Conference, 2024",
       link: "https://paperswithcode.com/paper/beyond-the-visible-jointly-attending-to",
       image: assets.diffusionimage,
-      technologies: [assets.python, assets.pytorch],
+      // technologies: [assets.python, assets.pytorchicon],
       linkText: "Link to the Paper"
       
     },
@@ -22,13 +23,14 @@ const projects = [
       title: "Tetris in MIPS ",
       description: "For a course, written in MIPs using assembly knowledge and game rendering techniques for a smooth gameplay and modifiable code.",
       link: "https://github.com/jiputer/",
-      
+      image: assets.tetrisMIPS,
       linkText: "Available upon request, repo is not public due to plagiarism concerns"
     },
     {
       title: "Drone detection, tracking and movement prediction model",
       description: "Created the model using TensorFlow and Pytorch. Wrote a YOLOv8 model from scratch, and used an LSTM to predict a sequence of positions the drones are at.",
       link: "https://github.com/jiputer/",
+      // technologies:[assets.python, assets.tensorflow, assets.pytorchicon],
       linkText: "Available upon request but, currently being edited for a more cleaner representation of results...."
     },
   
@@ -37,6 +39,7 @@ const projects = [
       description: "A three-layer architecture application that was written in TypeScript using React-Native. It used a three-layer architecture and CI/CD pipeline was set up using Docker and self written tests.",
       link: "https://github.com/jiputer/Tabs",
       image: assets.tabsimage,
+      // technologies: [assets.javascript, assets.nodejs, assets.graphql_logo, assets.css, assets.reactlogo, assets.typescript_logo, assets.mongodblogo, assets.docker],
       linkText: "Github Link"
     },
     {
@@ -44,24 +47,28 @@ const projects = [
       description: "Written for Hack The Valley 7, a three-layer architecture application written in TypeScript using React-Native, GraphQL. Modifiable backend that can be later used with different frontend technologies. Won Top 3 hacks, Best Discovery Hack and Best Use of Github awards.",
       link: "https://devpost.com/software/intelliverse",
       image: assets.intelliverse,
+      // technologies: [assets.javascript, assets.nodejs, assets.graphql_logo, assets.css, assets.reactlogo, assets.typescript_logo, assets.mongodblogo, assets.docker],
       linkText: "Github Link"
     },
     {
       title: "Remaining Battery Life Data Analysis, Regression Model ",
       description: "A datathon analysis task to study the correlated variables of remaining battery life. Regression and outlier analysis was done in python using jupyter notebook with multiple techniques to showcase. Placed in the Top 3 in the competition.",
       link: "https://github.com/jiputer/RemainingBattery",
+      // technologies: [assets.python, assets.numpylogo, assets.pandaslogo],
       linkText: "Github Link"
     },
     {
       title: "Mock Terminal ",
       description: "A final project to implement software design principles and techniques, received a perfect mark on the project. Written in Java.",
       link: "not available",
+      // technologies: [assets.javascript],
       linkText: "Available upon request, repo is not public due to plagiarism concerns"
     },
     {
       title: "Blood-Pressure Data Analysis, Regression Model",
       description: "A final project to study the correlated variables of SBP. Regression and outlier analysis was done in R with multiple techniques to showcase.",
       link: "not available",
+      // technologies: [assets.rlogo],
       linkText: "Github Link"
     }
   ];
