@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.2982c3be.css",
-    "main.js": "/static/js/main.e233013c.js",
-    "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
+    "main.css": "/static/css/main.225ca510.css",
+    "main.js": "/static/js/main.71c3abcc.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/timelineFlower.png": "/static/media/timelineFlower.63e98beb596cbea09dea.png",
+    "static/media/smiley.gif": "/static/media/smiley.6a272b20e00947831f13.gif",
     "static/media/finch_logo.png": "/static/media/finch_logo.82c13b6ea0eb87ce6e56.png",
+    "static/media/smiley1.gif": "/static/media/smiley1.48f3060c210a5fd9a38f.gif",
     "static/media/smiley3.gif": "/static/media/smiley3.ff4961b9b87ab01a74cc.gif",
     "static/media/java-icon.png": "/static/media/java-icon.1eb26d15c955096cc5ce.png",
     "static/media/flower1.gif": "/static/media/flower1.16813c3510c4cc880a47.gif",
@@ -20,6 +22,7 @@
     "static/media/mongodb.png": "/static/media/mongodb.bf8042403d8797a7ff1b.png",
     "static/media/rlogo.png": "/static/media/rlogo.5a886bbc447aa357b023.png",
     "static/media/pandas.png": "/static/media/pandas.02e7e103ec912e19abf3.png",
+    "static/media/smiley5.gif": "/static/media/smiley5.4740749c49e61fc292c7.gif",
     "static/media/c_icon.png": "/static/media/c_icon.d083731589e745941c43.png",
     "static/media/numpy.png": "/static/media/numpy.9eca1f7a4f09a8c742fd.png",
     "static/media/flower3.gif": "/static/media/flower3.ba78b6f343c237ac91d5.gif",
@@ -33,16 +36,20 @@
     "static/media/tabsimage.png": "/static/media/tabsimage.c874042b182eaf34f27a.png",
     "static/media/pytorch.png": "/static/media/pytorch.0c542d5564f655262f0f.png",
     "static/media/nodejs.png": "/static/media/nodejs.9493a7030123ccb59d91.png",
+    "static/media/tetrisMIPS.png": "/static/media/tetrisMIPS.d9cff2c1b8fe29b7c30d.png",
+    "static/media/c-sharp-c.svg": "/static/media/c-sharp-c.93ba21ebf5c7f4e5fb94538c4c948fec.svg",
     "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
     "static/media/github.svg": "/static/media/github.30a387496f41afe2415a2fe830b5c59b.svg",
+    "static/media/pytorch_icon.svg": "/static/media/pytorch_icon.ce0ed7c345d3dc18637af12aab9b4e9b.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.59f11e8cfbb8cb9077c4ad52ff64b07a.svg",
-    "main.2982c3be.css.map": "/static/css/main.2982c3be.css.map",
-    "main.e233013c.js.map": "/static/js/main.e233013c.js.map",
-    "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
+    "static/media/unity-3d.svg": "/static/media/unity-3d.5b2834b4709ba7fa0b85d2fc19ec317b.svg",
+    "main.225ca510.css.map": "/static/css/main.225ca510.css.map",
+    "main.71c3abcc.js.map": "/static/js/main.71c3abcc.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2982c3be.css",
-    "static/js/main.e233013c.js"
+    "static/css/main.225ca510.css",
+    "static/js/main.71c3abcc.js"
   ]
 }
