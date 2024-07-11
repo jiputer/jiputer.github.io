@@ -19,6 +19,7 @@ const Projects = () => {
           key={index}
           title={project.title}
           description={project.description}
+          technologies={project.technologies}
           image={project.image}
           link={project.link}
         />
@@ -35,13 +36,14 @@ const Projects = () => {
           title={project.title}
           description={project.description}
           image={project.image}
+          technologies={project.technologies}
           link={project.link}
           
         />
       ))}
     </div>
     </div>
-    <div><img src={flower3} alt=":)"/></div>
+    <div className="project_flower"><img src={flower3} alt=":)"/></div>
     </div>
   );
 };

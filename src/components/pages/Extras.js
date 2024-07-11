@@ -3,7 +3,7 @@ import {flower2} from '../assets'
 function Extras() {
   return (
     <div name="extras" id="extras" className = "sections"> 
-        <div className="section_projects">
+        <div className="section_item">
             <header className="stdHeader"> What I'm currently Listening To :) </header>
             <p className="sectionText"> 
               I really love listening to music, and especially new genres, 
@@ -14,7 +14,7 @@ function Extras() {
              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
 
-        <div className="section_projects">
+        <div className="section_item">
         <img src={flower2} alt=":) ..." width="500em" height="500em"/>
         </div>
         <div className="game">

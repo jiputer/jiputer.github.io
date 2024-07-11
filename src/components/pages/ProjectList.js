@@ -14,7 +14,7 @@ const projects = [
       description: "Academic paper for the SmallSat Conference, 2024",
       link: "https://paperswithcode.com/paper/beyond-the-visible-jointly-attending-to",
       image: assets.diffusionimage,
-      logos: [assets.python, assets.pytorch],
+      technologies: [assets.python, assets.pytorch],
       linkText: "Link to the Paper"
       
     },
