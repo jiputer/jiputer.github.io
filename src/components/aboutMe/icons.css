@@ -24,7 +24,11 @@
   padding:5px;
 }
 
-
+.icon itchio{
+  min-height:5%;
+  min-width:5%;
+  padding:5px
+}
 .icon:hover{
     animation: icon-spin 1.0s;
     filter:invert(0%) sepia(0%) saturate(0%) hue-rotate(90deg) brightness(100%) contrast(1000%);

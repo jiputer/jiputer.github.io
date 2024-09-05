@@ -1,5 +1,8 @@
+
+
+
 .section{
-    font-family: 'Noto Sans JP', sans-serif;
+
     position: relative;
     align-items: left;
     display: flex;
@@ -10,14 +13,14 @@
 
 }
 .stdHeader{
-    font-family: 'Noto Sans JP', sans-serif;
+
     font-size: x-large;
     text-align: left;
     font-weight: bold;
 }
 
 .section_image{
-    font-family: 'Noto Sans JP', sans-serif;
+
     position: relative;
     align-items: left;
     display: flex;
@@ -56,7 +59,7 @@
 
 }
 .sectionTitle{
-    font-family: 'Noto Sans JP', sans-serif;
+
     margin-top: 4vh;
     position: relative;
     align-items: left;
@@ -127,7 +130,7 @@ li span{
     height:50%;
 }
 .sectionText{
-    font-family: 'Noto Sans JP', sans-serif;
+
     font-size: medium;
     margin-top:2vh;
     margin-bottom: 5%;

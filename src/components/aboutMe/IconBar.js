@@ -1,5 +1,5 @@
 import "./icons.css"
-import { GithubIcon, LinkedInIcon } from "../assets";
+import {itchio, GithubIcon, LinkedInIcon } from "../assets";
 
 function IconBar() {
   return (
@@ -11,8 +11,12 @@ function IconBar() {
 
       <a href = "https://www.linkedin.com/in/john-p-ma">
       <img src={LinkedInIcon} className="icon" alt="LinkedInIcon" /></a>
+
+      <a href = "https://jiputer.itch.io/">
+      <img src={itchio} className="icon" alt="itchio" /></a>
+      </div>      
       </div>
-    </div>
+
   );
 }
 

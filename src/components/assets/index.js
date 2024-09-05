@@ -43,8 +43,10 @@ import LinkedInIcon from './linkedin.svg'
 import csharp from './c-sharp-c.svg'
 import unity from './unity-3d.svg'
 import tetrisMIPS from './tetrisMIPS.png'
+import itchio from './itch-io.svg'
 
 export {
+    itchio,
     tetrisMIPS,
     csharp,
     unity,
