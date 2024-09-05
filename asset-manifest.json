@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.225ca510.css",
-    "main.js": "/static/js/main.71c3abcc.js",
-    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "main.css": "/static/css/main.537c6a3e.css",
+    "main.js": "/static/js/main.12f82c63.js",
+    "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/timelineFlower.png": "/static/media/timelineFlower.63e98beb596cbea09dea.png",
     "static/media/smiley.gif": "/static/media/smiley.6a272b20e00947831f13.gif",
     "static/media/finch_logo.png": "/static/media/finch_logo.82c13b6ea0eb87ce6e56.png",
@@ -37,6 +37,7 @@
     "static/media/pytorch.png": "/static/media/pytorch.0c542d5564f655262f0f.png",
     "static/media/nodejs.png": "/static/media/nodejs.9493a7030123ccb59d91.png",
     "static/media/tetrisMIPS.png": "/static/media/tetrisMIPS.d9cff2c1b8fe29b7c30d.png",
+    "static/media/itch-io.svg": "/static/media/itch-io.3f90f07a7da533772e679c9fb0216e84.svg",
     "static/media/c-sharp-c.svg": "/static/media/c-sharp-c.93ba21ebf5c7f4e5fb94538c4c948fec.svg",
     "static/media/python.svg": "/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
     "static/media/github.svg": "/static/media/github.30a387496f41afe2415a2fe830b5c59b.svg",
@@ -44,12 +45,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.59f11e8cfbb8cb9077c4ad52ff64b07a.svg",
     "static/media/unity-3d.svg": "/static/media/unity-3d.5b2834b4709ba7fa0b85d2fc19ec317b.svg",
-    "main.225ca510.css.map": "/static/css/main.225ca510.css.map",
-    "main.71c3abcc.js.map": "/static/js/main.71c3abcc.js.map",
-    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+    "main.537c6a3e.css.map": "/static/css/main.537c6a3e.css.map",
+    "main.12f82c63.js.map": "/static/js/main.12f82c63.js.map",
+    "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.225ca510.css",
-    "static/js/main.71c3abcc.js"
+    "static/css/main.537c6a3e.css",
+    "static/js/main.12f82c63.js"
   ]
 }
