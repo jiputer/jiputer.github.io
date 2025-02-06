@@ -4,14 +4,36 @@ import * as assets from "../../assets"
 function LogosContainer() {
   return (
     <div class="logos_container">
-
       <div class="logos" id="data-science">
-        <h2>Machine Learning / Data Science</h2>
+        <h2>Programming Languages</h2>
         <div class="sectionLogo">
           <div class="logo-container">
             <img src={assets.python} alt="python" width="70" height="70" />
             <p>Python</p>
           </div>
+          <div class="logo-container">
+            <img src={assets.c_icon} alt="c_icon" width="70" height="70" />
+            <p>C</p>
+          </div>
+          <div class="logo-container">
+            <img src={assets.java} alt="java" width="70" height="70" />
+            <p>Java</p>
+          </div>
+          <div class="logo-container">
+            <img src={assets.javascript} alt="javascript" width="70" height="70" />
+            <p>JavaScript</p>
+          </div>
+          <div class="logo-container">
+            <img src={assets.typescript_logo} alt="typescript" width="70" height="70" />
+            <p>TypeScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="logos" id="data-science">
+        <h2>Machine Learning / Data Science</h2>
+        <div class="sectionLogo">
+ 
           <div class="logo-container">
             <img src={assets.pytorch} alt="pytorch" width="140" height="70" />
             <p>PyTorch</p>
@@ -40,14 +62,7 @@ function LogosContainer() {
       <div class="section" id="software-engineering">
         <h2>Dev-Ops / Software Engineering</h2>
         <div class="sectionLogo">
-          <div class="logo-container">
-            <img src={assets.c_icon} alt="c_icon" width="70" height="70" />
-            <p>C</p>
-          </div>
-          <div class="logo-container">
-            <img src={assets.java} alt="java" width="70" height="70" />
-            <p>Java</p>
-          </div>
+
           <div class="logo-container">
             <img src={assets.git_logo} alt="git_logo" width="70" height="70" />
             <p>Git</p>
@@ -75,18 +90,12 @@ function LogosContainer() {
       <div class="section" id="web-dev">
         <h2>Web Development</h2>
         <div class="sectionLogo">
-          <div class="logo-container">
-            <img src={assets.javascript} alt="javascript" width="70" height="70" />
-            <p>JavaScript</p>
-          </div>
+
           <div class="logo-container">
             <img src={assets.nodejs} alt="nodejs" width="70" height="70" />
             <p>Node.js</p>
           </div>
-          <div class="logo-container">
-            <img src={assets.typescript_logo} alt="typescript" width="70" height="70" />
-            <p>TypeScript</p>
-          </div>
+
           <div class="logo-container">
             <img src={assets.reactlogo} alt="react" width="70" height="70" />
             <p>React</p>
