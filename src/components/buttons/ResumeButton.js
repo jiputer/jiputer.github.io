@@ -7,7 +7,7 @@ function ResumeButton() {
     <span class="circle" aria-hidden="true">
       <span class="icon arrow"></span>
     </span>
-    <a href="https://docs.google.com/document/d/1sUPe8bQDaqvuTIrh3dt37ciO_BN3zJ20lhItL9QA4Uk/edit?usp=sharing" 
+    <a href='https://jiputer.github.io/jiputer.github.io/John_M_Resume.pdf'
     class="button-text">
     <span>Resume</span> </a>
   </button>

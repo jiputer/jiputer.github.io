@@ -44,8 +44,10 @@ import csharp from './c-sharp-c.svg'
 import unity from './unity-3d.svg'
 import tetrisMIPS from './tetrisMIPS.png'
 import itchio from './itch-io.svg'
+import resume_pdf from './John_M_Resume.pdf'
 
 export {
+    resume_pdf,
     itchio,
     tetrisMIPS,
     csharp,
