@@ -1,26 +1,45 @@
-/*Define variables*/
+/* Colours and base styles. Change the look of the whole site from the variables below. */
+:root {
+  --bg: #fffcef;
+  --card: #ffffff;
+  --ink: #1b1b19;
+  --body: #3b3a36;
+  --muted: #77756d;
+  --line: #e9e2c3;
+  --soft: #f8f2d4;
+  --yellow: #ffe27a;       /* main pastel yellow (buttons, active tab, badges) */
+  --yellow-deep: #ffd24d;  /* yellow when pressed or hovered */
+  --yellow-soft: #fff3bf;  /* pale yellow for hovers and highlight boxes */
+  --on-yellow: #1b1b19;    /* text that sits on yellow */
+  --hover: var(--yellow-soft);
+  --red: #e5484d;
+  --blue: #3b82f6;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #141413;
+  --card: #1a1a18;
+  --ink: #ecebe4;
+  --body: #cfcdc4;
+  --muted: #96948b;
+  --line: #2f2f2b;
+  --soft: #1f1f1c;
+  --yellow-soft: #3a3314;
+  --hover: var(--yellow-soft);
+  color-scheme: dark;
+}
 
-
-
-
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-  max-width: 100%;
-
+  transition: background .25s, color .25s;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-html {
-  overflow-x: hidden;
-  max-width: 100%;
-}
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
